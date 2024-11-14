@@ -10,8 +10,6 @@ const App = () => {
     <BrowserRouter>
       <div className="App">
         <Navbar />
-        
-        {/* Flex container to hold About and GLTFViewer side by side */}
         <div style={{ display: 'flex', width: '100%', height: '100vh' }}>
           <div style={{ flex: '1', padding: '20px' }}>
             <About />

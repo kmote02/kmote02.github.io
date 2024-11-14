@@ -15,7 +15,7 @@ const GLTFViewer = () => {
       <Canvas camera={{ position: [250, 200, 650], fov: 50 }}>
         <ambientLight intensity={0.5} />
         <directionalLight position={[5, 5, 5]} intensity={1} />
-        <Model url="/3d_model/scene.gltf" /> {/* Correct path to GLTF file */}
+        <Model url="./3d_model/scene.gltf" />
         <OrbitControls />
       </Canvas>
     </div>
