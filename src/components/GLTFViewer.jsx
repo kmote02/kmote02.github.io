@@ -42,4 +42,4 @@ export default function GLTFViewer() {
 }
 
 // Pre-load the model
-useGLTF.preload('/3d_model/scene.gltf');
+useGLTF.preload('https://github.com/kmote02/kmote02.github.io/blob/main/public/3d_model/scene.gltf?url');
