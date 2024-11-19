@@ -1,15 +1,16 @@
-{
-  "name": "portfolio1.0",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "deploy": "gh-pages -d dist",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+
+  {
+    "name": "portfolio1.0",
+    "private": true,
+    "version": "0.1.0",
+    "homepage": "https://kmote02.github.io",  
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist",
+      "preview": "vite preview"
+    },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.114.0",

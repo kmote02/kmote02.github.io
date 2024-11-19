@@ -10,29 +10,27 @@ const projects = [
     title: "Project One",
     description: "Developed a mathematical model using raw data of percipitation in a region and predicting the gross agricultural yeid .",
     date: "Jan 2022 - Mar 2022",
-    icon: "/path/to/icon1.png",
-    iconBg: "#232631",
+
+
   },
   {
     title: "Project Two",
     description: "Description of Project Two.",
     date: "Apr 2022 - Jun 2022",
-    icon: "/path/to/icon2.png",
-    iconBg: "#1d1836",
+
+
   },
   {
     title: "Project Three",
     description: "Description of Project Three.",
     date: "Jul 2022 - Sep 2022",
-    icon: "/path/to/icon3.png",
-    iconBg: "#ff6347",
+
   },
   {
     title: "Project Four",
     description: "Description of Project Four.",
     date: "Oct 2022 - Dec 2022",
-    icon: "/path/to/icon4.png",
-    iconBg: "#4682b4",
+
   },
 ];
 
